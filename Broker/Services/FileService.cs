@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿//using Newtonsoft.Json;
 using CsvHelper;
 using System;
 using System.Collections.Generic;
@@ -18,8 +18,6 @@ namespace Broker.Services.FileService
             File.WriteAllText(path, jsonClient);
 
         }
-
-
-        }
-    }
+     }
+}
 

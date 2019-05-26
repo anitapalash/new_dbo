@@ -25,7 +25,6 @@ namespace Broker
             FileService fileService = new FileService();
             fileService.WriteToFile(client);
 
-
         }
 
         public static void setClientType(Type type)
@@ -48,6 +47,6 @@ namespace Broker
                 currentMap.Add(feature.Key, feature.Value);
             client.setFeatures(currentMap);
         }
-        
+
     }
 }

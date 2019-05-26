@@ -44,7 +44,10 @@ namespace Broker
 
             Program.setCriterias(tempDict);
             this.Hide();
-            new Question2().ShowDialog();
+            if (Program.client.getType() == Type.INDIVIDUAL || Program.client.getType() == Type.LEGENT)
+                new Question2().ShowDialog();
+            else 
+                new QuestionForCorporate().ShowDialog();
         }
     }
 }

@@ -83,11 +83,17 @@
     <Compile Include="Question3.Designer.cs">
       <DependentUpon>Question3.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuestionForLegEnt.cs">
+    <Compile Include="Question4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuestionForLegEnt.Designer.cs">
-      <DependentUpon>QuestionForLegEnt.cs</DependentUpon>
+    <Compile Include="Question4.Designer.cs">
+      <DependentUpon>Question4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionForCorporate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionForCorporate.Designer.cs">
+      <DependentUpon>QuestionForCorporate.cs</DependentUpon>
     </Compile>
     <Compile Include="Services\FileService.cs" />
     <EmbeddedResource Include="Entrance.resx">
@@ -114,8 +120,11 @@
     <EmbeddedResource Include="Question3.resx">
       <DependentUpon>Question3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuestionForLegEnt.resx">
-      <DependentUpon>QuestionForLegEnt.cs</DependentUpon>
+    <EmbeddedResource Include="Question4.resx">
+      <DependentUpon>Question4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionForCorporate.resx">
+      <DependentUpon>QuestionForCorporate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

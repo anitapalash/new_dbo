@@ -33,7 +33,7 @@ namespace Broker
         {
            Program.setClientType(Type.LEGENT);
             this.Hide();
-            new QuestionForLegEnt().ShowDialog();
+            new Question1().ShowDialog();
         }
 
         private void corpClientButton_Click(object sender, EventArgs e)

@@ -26,10 +26,13 @@ namespace Broker
             tempDict.Add(feature4.Text, checkBox4.Checked);
             tempDict.Add(feature5.Text, checkBox5.Checked);
             tempDict.Add(feature6.Text, checkBox6.Checked);
+            tempDict.Add(feature7.Text, checkBox7.Checked);
+            tempDict.Add(feature8.Text, checkBox8.Checked);
 
             Program.setFeatures(tempDict);
             this.Hide();
             new Question3().ShowDialog();
         }
+
     }
 }
